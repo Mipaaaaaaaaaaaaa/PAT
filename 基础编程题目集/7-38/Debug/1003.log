@@ -1,0 +1,5 @@
+﻿  1003.cpp
+F:\预防老年痴呆\PAT\Basic\1003\1003.cpp(19,21): warning C4018:  “<=”: 有符号/无符号不匹配
+F:\预防老年痴呆\PAT\Basic\1003\1003.cpp(22,28): warning C4018:  “<=”: 有符号/无符号不匹配
+F:\预防老年痴呆\PAT\Basic\1003\1003.cpp(27,21): warning C4018:  “<=”: 有符号/无符号不匹配
+  1003.vcxproj -> F:\预防老年痴呆\PAT\Basic\1003\Debug\1003.exe

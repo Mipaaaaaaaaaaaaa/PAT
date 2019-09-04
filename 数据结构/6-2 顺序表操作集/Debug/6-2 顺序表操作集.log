@@ -1,0 +1,14 @@
+﻿  源.cpp
+F:\预防老年痴呆\PAT\数据结构\6-2 顺序表操作集\源.cpp(81,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+F:\预防老年痴呆\PAT\数据结构\6-2 顺序表操作集\源.cpp(83,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+F:\预防老年痴呆\PAT\数据结构\6-2 顺序表操作集\源.cpp(87,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+F:\预防老年痴呆\PAT\数据结构\6-2 顺序表操作集\源.cpp(89,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+F:\预防老年痴呆\PAT\数据结构\6-2 顺序表操作集\源.cpp(96,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+F:\预防老年痴呆\PAT\数据结构\6-2 顺序表操作集\源.cpp(98,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+  6-2 顺序表操作集.vcxproj -> F:\预防老年痴呆\PAT\数据结构\6-2 顺序表操作集\Debug\6-2 顺序表操作集.exe
