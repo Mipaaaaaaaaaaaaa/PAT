@@ -1,0 +1,7 @@
+﻿  1013-并查集.cpp
+F:\预防老年痴呆\PAT\Advance\1013-并查集\1013-并查集.cpp(53,21): warning C4018:  “<”: 有符号/无符号不匹配
+F:\预防老年痴呆\PAT\Advance\1013-并查集\1013-并查集.cpp(43,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+F:\预防老年痴呆\PAT\Advance\1013-并查集\1013-并查集.cpp(52,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+  1013-并查集.vcxproj -> F:\预防老年痴呆\PAT\Advance\1013-并查集\Debug\1013-并查集.exe
