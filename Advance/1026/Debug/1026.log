@@ -1,0 +1,7 @@
+﻿  1026.cpp
+F:\预防老年痴呆\PAT\Advance\1026\1026.cpp(21,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+F:\预防老年痴呆\PAT\Advance\1026\1026.cpp(25,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+F:\预防老年痴呆\PAT\Advance\1026\1026.cpp(20,6): warning C4101:  “table”: 未引用的局部变量
+  1026.vcxproj -> F:\预防老年痴呆\PAT\Advance\1026\Debug\1026.exe

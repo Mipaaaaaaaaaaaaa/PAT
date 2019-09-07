@@ -2,9 +2,74 @@
 //
 
 #include <iostream>
+#include <memory>
+#define INF 9999
+
+
+using namespace std;
+int rescue[505];
+int dis[505], num[505], sum[505];
+int visit[505];
+int a[505][505];
+
+int n;//city numbers;
+int m;//road numbers;
+int c1;//start;
+int c2;//destination;
+
+
+void Dijkstra() {
+	int minD,v;
+	dis[c1] = 0;
+	sum[c1] = rescue[c1];
+	num[c1] = 1;
+	for (int i = 0; i < n; i++) {
+		minD = INF;
+		v = -1;
+		for (int j = 0; j < n; j++) {
+			if (!visit[j] && dis[j] < minD) {
+				minD = dis[j];
+				v = j;
+			}
+		}
+		visit[v] = 1;
+		for (int j = 0; j < n; j++) {
+			if (dis[j] > dis[v] + a[j][v]) {
+				dis[j] = dis[v] + a[j][v];
+				num[j] = num[v];
+				sum[j] = sum[v] + rescue[j];
+			}
+			else if (dis[j] == dis[v] + a[j][v]) {
+				num[j] += num[v];
+				if (sum[j] < sum[v] + rescue[j]) {
+					sum[j] = sum[v] + rescue[j];
+				}
+			}
+		}
+
+	}
+}
 
 int main()
 {
+	fill(rescue, rescue + 505, 0);
+	fill(dis, dis + 505, INF);
+	fill(visit, visit + 505, 0);
+	memset(a, INF, sizeof(a));
+
+	cin >> n >> m >> c1 >> c2;
+	for (int i = 0; i < n; i++) {
+		cin>> rescue[i];
+	}
+	for (int i = 0; i < m; i++) {
+		int r1, r2,rd;
+		cin >> r1 >> r2 >> rd;
+		a[r1][r2] = rd;
+		a[r2][r1] = rd;
+	}
+	
+	Dijkstra();
+	cout << num[c2] << " " << sum[c2] << endl;
     std::cout << "Hello World!\n";
 }
 

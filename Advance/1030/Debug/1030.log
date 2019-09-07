@@ -1,2 +1,4 @@
 ﻿  1030.cpp
-F:\预防老年痴呆\PAT\Advance\1030\1030.cpp(5,1): error C1021:  无效的预处理器命令“in”
+F:\预防老年痴呆\PAT\Advance\1030\1030.cpp(61,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+  1030.vcxproj -> F:\预防老年痴呆\PAT\Advance\1030\Debug\1030.exe
